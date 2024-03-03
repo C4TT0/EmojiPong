@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmojiPong</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="bgAnimation"></div>
+    <canvas></canvas>
+    <div class="modal playScreen">
+      <div class="wrapper">
+        <h1>EmojiPong</h1>
+        <div class="form">
+          <input
+            type="text"
+            name="emoji"
+            id="emoji"
+            placeholder="Enter Emoji"
+          />
+          <a href="#" class="playBtn" id="playBtn">Play</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal gameOver hide">
+      <div class="wrapper">
+        <h1>Game Over</h1>
+        <a href="#" class="restartBtn" id="restartBtn">Restart</a>
+      </div>
+    </div>
+  </body>
+</html>
