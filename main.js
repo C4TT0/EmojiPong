@@ -48,6 +48,10 @@ class Player {
     window.addEventListener("mousemove", (e) => {
       this.x = e.clientX;
     });
+
+    window.addEventListener("touchmove", (e) => {
+      this.x = e.touches[0].clientX
+    })
   }
 
   draw() {
